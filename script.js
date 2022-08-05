@@ -54,7 +54,6 @@ function addTodo(title, completed) {
   deleteBtn.innerText = "Delete";
   deleteBtn.className = "btn btn-danger";
   deleteBtn.style.display = "none";
-
   deleteBtn.onclick = () => {
     todoCtn.removeChild(div);
     saveTodo();
